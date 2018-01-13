@@ -2,6 +2,8 @@
 
 [Codefights.com](https://codefights.com/) is an algorithm testing site to help programmers learn new languages or prepare for technical interviews. It has various modes including: algorithm problems, interview practice, timed challenges, company bots, and tournaments.
 
+My [CodeFights Profile](https://codefights.com/profile/russwilkie)
+
 # How CodeFights Work
 
 * Each algorithm problem is given a set of requirements including design constraints and expected output. 
