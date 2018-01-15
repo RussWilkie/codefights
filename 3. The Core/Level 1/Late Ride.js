@@ -18,22 +18,42 @@ lateRide(n) = 14.
 808 minutes mean that it's 13:28 now, so the answer should be 1 + 3 + 2 + 8 = 14.
 */
 function lateRide(n) {
-    //Convert minutes to (String) hours and (String) minutes
-    let hour = Math.floor(n/60).toString();
-    let minute = (n % 60).toString();
+    /*=========================
+     * Second submission:
+     * Similar approach to: Add Two Digits
+     * =========================
+     */
+    let hour = Math.floor(n/60);
+    let minute = (n % 60)
     
-    //Combine strings into one, then convert to array
-    let time = hour + minute;
+    let sum = Math.floor(hour/10) + hour%10 
+    + Math.floor(minute/10)+ minute%10;
+    
+    return sum;
+    
+    
+    /*=========================
+     * First submission: 
+     * Convert to string -> Array, then add
+     *==========================
      
-    const arr = time.split('');
-    
-    //Add
-    const add = (num1, num2) => {
-        return Number(num1)+Number(num2);
-    } 
-    
-    return arr.reduce(add);
-    
+        //Convert minutes to (String) hours and (String) minutes
+        let hour = Math.floor(n/60);//.toString();
+        let minute = (n % 60);//.toString();
+
+        //Combine strings into one, then convert to array
+        let time = hour + minute;
+
+        const arr = time.split('');
+
+        //Add
+        const sum = (num1, num2) => {
+            return Number(num1)+Number(num2);
+        } 
+
+        return arr.reduce(sum);
+     */
 }
+
 
 
