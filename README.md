@@ -10,6 +10,6 @@ My [CodeFights Profile](https://codefights.com/profile/russwilkie)
 * Each submission must pass several automated tests to be accepted.
 * Users gain coins and experience points for successful algorithm solutions, tournament wins, and completed challenges.
 
-# More Information On This Repoistory
+# About This Repository
 
 Each file contains my submission to each code fights challenge along with a description of the problem's requirements.
